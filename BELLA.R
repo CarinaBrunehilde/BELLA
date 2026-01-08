@@ -130,7 +130,7 @@ mat_G=function(X, y, beta,sigma2,rho){
   Rii     = Ri(rho,ni)
   invRii  = invRi(rho,ni)
   dinvRii = dinvRi(rho,ni)
-  i=1
+
   for(i in 1:n){
     iseq = X$id==i
     Xi   = X[iseq,-1]
